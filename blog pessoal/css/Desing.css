@@ -6,9 +6,10 @@ header{
     display: block;
     align-items: center;
     padding: 1vw;
-    width: 90%;
+    margin: -0.50vw -0.48vw 0vw -0.50vw;
+    border: solid red 0.14vw;
 }
 
 body {
-    display: block;
+    display: inline-flexbox;
 }
