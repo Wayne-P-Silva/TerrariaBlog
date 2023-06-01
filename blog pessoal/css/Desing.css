@@ -1,15 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
 
-
 header{
     background-color: black;
     display: block;
     align-items: center;
     padding: 1vw;
     margin: -0.50vw -0.48vw 0vw -0.50vw;
-    border: solid red 0.14vw;
+    border: solid #2F2E33 0.14vw;
 }
 
-body {
+body{
     display: inline-flexbox;
+    background-image: url(../icons/Fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#quadrado{
+    width: 40vw;
+    height: 40vw;
+    background-color: rgb(17, 124, 196);
+    border: rgb(30, 144, 209) solid;
+    border-radius: 1vw;
 }
